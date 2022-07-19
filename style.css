@@ -20,6 +20,7 @@
   --on-background: rgba(255, 255, 255, 0.9);
   --on-background-alt: rgba(255, 255, 255, 0.7);
   --background: #121212;
+  --color: white;
 }
 
 html {
@@ -170,6 +171,8 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 25px;
+  color: white;
+  font-size: 1.2em;
 }
 
 /* Contact Section */
@@ -255,7 +258,7 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-.fas {
+.fa-solid {
   font-size: 30px;
   margin-right: 5px;
 }
